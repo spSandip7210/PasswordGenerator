@@ -31,7 +31,7 @@ function generatePassword(){
     allchar += lowercase.checked ? lowerChar : '';
     allchar += uppercase.checked ? upperChar : '';
     allchar += number.checked ? numbers : '';
-    allchar += symbol.cheked ? symbols : '';
+    allchar += symbol.checked ? symbols : '';
     
     for(let i =1; i<=slider.value;i++){
         str += allchar.charAt(Math.floor(Math.random()*allchar.length));
